@@ -63,7 +63,9 @@ public class CreateStreamTest {
         Stream<String> stream = Stream.generate(() -> "Hanif Faiz Hidayat");
 //        stream.forEach(System.out::println);
 
-        Stream<String> iterate = Stream.iterate(1, value -> value + 1);
+//        Stream<String> iterate = Stream.iterate(1, value -> value + 1);
 //        iterate.forEach(System.out::println);
     }
+
+
 }
