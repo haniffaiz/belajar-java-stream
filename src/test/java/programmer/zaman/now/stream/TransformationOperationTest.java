@@ -24,7 +24,6 @@ public class TransformationOperationTest {
                 .map(name->name.toUpperCase())
                 .flatMap(upper -> Stream.of(upper, upper.length()))
                 .flatMap(value -> Stream.of(value, value, value))
-
                 .forEach(length -> System.out.println(length));
 
     }
